@@ -1,24 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Demo } from './components/Demo';
+import { Block } from './components/Block';
+import "./styles/site.css"
+import { Tube } from './components/Tube';
+
+const itemSet = [
+  {
+    id:1,
+    color:"blue",
+    order:3
+  },
+  {
+    id:2,
+    color:"blue",
+    order:2
+  },
+  {
+    id:3,
+    color:"red",
+    order:1
+  },
+  {
+    id:4,
+    color:"red",
+    order:4
+  },
+]
 
 function App() {
+  // return <Demo/>
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="game-area">
+        <Tube/>
+      </div>
     </div>
   );
 }

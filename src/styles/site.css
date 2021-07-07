@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a3b18a;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    background-color: blueviolet;
+}
+.canvas{
+    width: 600px;
+    height: 350px;
+    background-color: burlywood;
+}
+
+.block {
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.box-red{
+    background-color: #b71c1c;
+}
+
+.box-blue{
+    background-color: #0d47a1;
+}
+
+.border-white {
+    border: 1px solid white;
+}
+
+.tube{
+    min-height: 120px;
+    width: fit-content;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.game-area {
+    background-color: #588157;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.container {
+    /* padding: 50px;
+    width: fit-content; */
+}
