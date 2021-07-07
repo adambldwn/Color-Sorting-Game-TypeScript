@@ -25,6 +25,8 @@ body {
     width: 60px;
     height: 30px;
     border-radius: 10px;
+    color: white;
+    text-align: center;
 }
 
 .box-red{
@@ -40,26 +42,36 @@ body {
 }
 
 .tube{
-    min-height: 120px;
-    width: fit-content;
+    min-height: 150px;
+    width: 76px;
     padding: 5px;
     border: 2px solid white;
     border-radius: 0 0 10px 10px;
     border-top: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 5px;
+    align-items: center;
 }
 .game-area {
     background-color: #588157;
     width: fit-content;
     border-radius: 15px;
-    padding: 15px;
+    padding: 150px;
     display: flex;
     gap: 10px;
 }
 
 .container {
-    /* padding: 50px;
-    width: fit-content; */
+    padding: 50px;
+    width: fit-content;
+}
+.controls {
+    margin-top: 20px;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
